@@ -55,6 +55,18 @@
             android:textColor="?attr/colorPrimary"
             tools:ignore="HardcodedText" />
 
+        <Button
+            android:id="@+id/buttonDelete"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewDeskripsi"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/buttonEdit"
+            android:text="DELETE"
+            android:textColor="?attr/colorAccent"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
         <ImageButton
             android:id="@+id/buttonFavorite"
             style="?android:attr/borderlessButtonStyle"
